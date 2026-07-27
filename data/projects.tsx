@@ -45,25 +45,33 @@ export const projectsData: Record<'es' | 'en', Project[]> = {
         "Excel Solver Validation"
       ],
       githubUrl: "https://github.com/tuusuario/OPTIMIZACION-DEL-PLAN-DE-DISTRIBUCION-DE-PRODUCTOS",
-      imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      imageUrl: "/images/optimizacion-distri/InterfazPrincipal.png",
+      gallery: [
+        "/images/optimizacion-distri/InterfazPrincipal.png",
+        "/images/optimizacion-distri/Pruebas.png"
+      ]
     },
     {
       id: 3,
-      title: "QA & TESTING METHODOLOGIES",
-      stack: "IEEE 829, PYTHON, TESTING",
-      desc: "Quality assurance and software testing following IEEE 829 international standards.",
-      longDesc: "Implementation of comprehensive test plans following the international IEEE 829 standard. Development of testing strategies for enterprise applications including unit testing, integration testing, and system validation. Focus on test automation and quality metrics.",
+      title: "DEVELOPMENT OF AN ONLINE STORE (E-COMMERCE)",
+      stack: "PHP, HTML5, CSS3, JAVASCRIPT, MYSQL",
+      desc: "Development and implementation of an e-commerce platform for selling clothing. Includes product catalog, shopping cart, details view, and order management",
+      longDesc: "Development of a complete e-commerce platform for a fashion store. Includes interactive catalog, product details, shopping cart, simulated payment gateway, contact forms, and relational database management.",
       iconType: 'shield' as const,
       steps: [
-        "Test Plan Design (IEEE 829)",
-        "Test Case Development",
-        "Unit & Integration Testing",
-        "Bug Tracking & Reporting",
-        "Performance Metrics Analysis",
-        "Test Automation Strategy"
+        "Interactive catalog",
+        "Shopping cart and payment management",
+        "Responsive design",
+        "Database integration"
       ],
       githubUrl: null,
-      imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b8?w=800&h=600&fit=crop"
+      imageUrl: "/images/ecommerce/catalogo.png",
+      gallery: [
+        "/images/ecommerce/catalogo.png",
+        "/images/ecommerce/carrito.png",
+        "/images/ecommerce/detalle-producto.png",
+        "/images/ecommerce/pago.png"
+      ]
     }
   ],
   es: [
@@ -86,6 +94,7 @@ export const projectsData: Record<'es' | 'en', Project[]> = {
       githubUrl: "https://github.com/jhinrojasbuitron-netizen/SISTEMA-DE-GESTI-N-DOCUMENTAL.git",
       imageUrl: "/images/gestion-documental/LoginAdmin.png",
       gallery: [
+        "/images/gestion-documental/LoginAdmin.png",
         "/images/gestion-documental/InterfazPrincipal.png",
         "/images/gestion-documental/AddAlumno.png",
         "/images/gestion-documental/LoginProfesor.png",
@@ -109,28 +118,36 @@ export const projectsData: Record<'es' | 'en', Project[]> = {
         "Validación con Excel Solver"
       ],
       githubUrl: "https://github.com/tuusuario/OPTIMIZACION-DEL-PLAN-DE-DISTRIBUCION-DE-PRODUCTOS",
-      imageUrl: "/image/optimizacion-distri/InterfazPrincipal.png",
+      imageUrl: "image/optimizacion-distri/InterfazPrincipal.PNG",
       gallery: [
-        "/image/optimizacion-distri/Pruebas.png",
+        "image/optimizacion-distri/InterfazPrincipal.PNG",
+        "image/optimizacion-distri/Pruebas.PNG"
       ]
     },
     {
       id: 3,
-      title: "METODOLOGÍAS DE QA & TESTING",
-      stack: "IEEE 829, PYTHON, TESTING",
-      desc: "Aseguramiento de calidad y pruebas de software siguiendo estándar internacional IEEE 829.",
-      longDesc: "Implementación de planes de prueba exhaustivos siguiendo el estándar internacional IEEE 829. Desarrollo de estrategias de testing para aplicaciones empresariales incluyendo pruebas unitarias, de integración y validación de sistemas. Enfoque en automatización de pruebas y métricas de calidad.",
+      title: "DESARROLLO DE TIENDA VIRTUAL (E-COMMERCE)",
+      stack: "PHP, HTML5, CSS3, JAVASCRIPT, MYSQL",
+      desc: "Desarrollo e implementación de un e-commerce para la venta de prendas de vestir. Incluye catálogo de productos, carrito de compras, vista de detalles y gestión de pedidos.",
+      longDesc: "Desarrollo de plataforma e-commerce completa para tienda de moda. Incluye catálogo interactivo, detalles de productos, carrito de compras, pasarela de pagos simulada, formularios de contacto y gestión de base de datos relacional.",
       iconType: 'shield' as const,
       steps: [
-        "Diseño del Plan de Pruebas (IEEE 829)",
-        "Desarrollo de Casos de Prueba",
-        "Pruebas Unitarias y de Integración",
-        "Seguimiento y Reporte de Errores",
-        "Análisis de Métricas de Rendimiento",
-        "Estrategia de Automatización de Pruebas"
+        "Catálogo interactivo",
+        "Gestión de carrito y pagos",
+        "Diseño responsivo",
+        "Integración con base de datos"
       ],
       githubUrl: null,
-      imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b8?w=800&h=600&fit=crop"
+      imageUrl: "images/ecommerce/Principal.PNG",
+      gallery: [
+        "images/ecommerce/Principal.PNG",
+        "images/ecommerce/Productos.PNG",
+        "images/ecommerce/DetalleProducto.PNG",
+        "images/ecommerce/PasarelaPago.PNG",
+        "images/ecommerce/Contacto.PNG",
+        "images/ecommerce/Devoluciones.PNG",
+        "images/ecommerce/Tiendas.PNG"
+      ]
     }
   ]
 };

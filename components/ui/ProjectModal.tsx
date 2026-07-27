@@ -57,8 +57,8 @@ export default function ProjectModal({
         : ['Mathematical optimization', 'Sensitivity analysis', 'Transportation models', 'Validated results'];
     }
     return language === 'es'
-      ? ['Estándar IEEE 829', 'Pruebas automatizadas', 'Métricas de calidad', 'Cobertura completa']
-      : ['IEEE 829 standard', 'Automated testing', 'Quality metrics', 'Full coverage'];
+      ? ['Catálogo interactivo', 'Gestión de carrito y pagos', 'Diseño responsivo', 'Integración con base de datos']
+      : ['Interactive catalog', 'Shopping cart and payment management', 'Responsive design', 'Database integration'];
   };
 
   const getProjectYear = () => {
